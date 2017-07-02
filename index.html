@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Piane, Yamaha, Luxury, Produse">
+        <meta name="description" content="Prezentare piane Yamaha Luxury">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yamaha Luxury Pianos</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="imagini/favicon.ico">
+            <style>
+              @font-face{
+                        font-family: 'qq';
+                        src: url(fonturi/Brandon_light.otf);
+                    }
+              @font-face{
+                       font-family: 'qq2';
+                        src: url(fonturi/Brandon_bld.otf);
+                    }
+            </style>
+        
+        
+         <script>
+            function functie(){ 
+            alert("Pentru a descarca aplicatia, va rugam intrati pe AppStore/PlayStore de pe telefon!");
+             }
+        </script>
+        
+        
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="header-section">
+                <div class="header-div-stanga">
+                    <h1 class="header-titlu">YAMAHA PIANO</h1>
+                </div>
+                <div class="header-div-dreapta">
+                    <form class="header-form">
+                         Login:<input type="email" name="nume" placeholder="Nume.."/>
+                         Parola:<input type="password" name="parola" placeholder="Parola.."/>
+                         <input type="button" value="Trimitere" name="ok"/>
+                    </form>
+                </div> 
+            </div>
+         <nav class="meniu">
+            <ul>
+                <li><a href="index.html">ACASA</a></li>
+                <li class="dropdown">
+                    <span>PRODUSE</span>
+                        <div class="dropdown-content">
+                                <a href="produsePiane.html">Piane</a>
+                                <a href="produsePiane.html">Pianine</a> 
+                        </div>
+                </li>
+                <li><a href="evenimente.html">EVENIMENTE</a></li>
+                <li class="meniu-obiect-despre"><a href="despre.html">ECHIPA</a></li>
+            </ul>
+         </nav>
+        </header>
+        
+        
+        <main class="continut">
+            <div id="index-continut-section-1">
+                <div id="index-continut-section-stanga">
+                    <figure id="index-imagine-pian">
+                        <img src="imagini/293.jpg" alt="Yamaha Piano"  title="Pian YAMAHA" height="300" width="400">
+                    </figure>
+                </div>  
+
+                 <div id="index-continut-section-dreapta">  
+                    <form id="index-continut-form">
+                        Trimite-ne un videoclip cu tine cantand la pian si poti castiga o excursie in <em>Maldive!</em><br>
+                        Nume: <input type='text' name='nume si prenume' placeholder="Nume"/><br>
+                        Email: <input type='email' name='email' placeholder="Email"/><br>
+                        Alege un fisier: <input type='file'/><br>
+                     </form>  
+                </div>
+            </div>
+            <div>
+            <section id="index-continut-section-2">
+                <h3 id="index-continut-section-h3">Păstrarea <strong>tradiției</strong> nu înseamnă refuzul de a schimba; ci dimpotrivă, înseamnă încercarea de a atinge perfecțiunea.Iar când vine vorba despre tradiția manufacturării unui pian, există un <em>sunet</em>, un ton la care aspiră doar aceia care depun eforturi în mod constant pentru a se întrece pe sine.</h3>
+            </section>
+            
+                <article id="index-article">
+                    <p>Articolele prezentate sunt cu forma orientativa</p>
+                </article>
+            </div>
+
+            <div id="index-continut-section-3">
+                    <video controls autoplay id="index-continut-section-3-video" title="Prezentare Video Pian">
+                      <source src="video/pian.mp4" type="video/mp4" />
+                    </video>
+            </div>
+        </main>  
+        
+        <footer class="footer">
+                <div class="div-footer">
+                    <h2>Cariere</h2>
+                    <p><a href="despre.html">Echipa noastra</a></p>
+                    <p><a href="despre.html">Aplica</a></p>
+                </div>
+                <div class="div-footer">
+                    <h2>Descarcati aplicatia</h2>
+                    <p><a href="#" onClick="functie()">iPhone</a></p>
+                    <p><a href="#" onClick="functie()">Android</a></p>
+                </div>
+            <div>
+             <address id="adresa"><p>@Bucuresti, Sectorul 2</p></address>
+            </div>
+        </footer>
+        
+       
+          
+    </body>
+</html>
